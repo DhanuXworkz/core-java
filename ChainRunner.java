@@ -1,8 +1,8 @@
 class ChainRunner {
 	
 	 public static void main(String c[]){
-		 Chain chain = new Chain();
-		 chain.chainType= "Gold";
+		 Chain chain = new Chain("Gold",100000,45,"20%","Abharana");
+		 /*chain.chainType= "Gold";
 		 chain.price=100000;
 		 chain.chainGram=45;
 		 chain.discount="20%";
@@ -12,14 +12,14 @@ class ChainRunner {
 		 System.out.println("Chain price is "+ chain.price);
 		 System.out.println("Chain gram is " + chain.chainGram);
 		 System.out.println("discount is " +  chain.discount);
-		 System.out.println("ShopName is " + chain.ShopName);
+		 System.out.println("ShopName is " + chain.ShopName);*/
 		 
 		 chain.perchaseChain();
 		 System.out.println("\n");
 		 
 		 
-		 Chain chain1 = new Chain();
-		 chain1.chainType= "Silver";
+		 Chain chain1 = new Chain("Silver",10000,30,"50%","Joyalukkus");
+		/* chain1.chainType= "Silver";
 		 chain1.price=10000;
 		 chain1.chainGram=30;
 		 chain1.discount="50%";
@@ -29,13 +29,13 @@ class ChainRunner {
 		 System.out.println("Chain1 price is "+ chain1.price);
 		 System.out.println("Chain1 gram is " + chain1.chainGram);
 		 System.out.println("discount is " +  chain1.discount);
-		 System.out.println("ShopName is " + chain1.ShopName);
+		 System.out.println("ShopName is " + chain1.ShopName);*/
 		 
 		 chain1.perchaseChain();
 		 System.out.println("\n");
 		 
-		 Chain chain2 = new Chain();
-		 chain2.chainType= "Platinum";
+		 Chain chain2 = new Chain("Platinum",150000,10,"30%","Abharana");
+		/* chain2.chainType= "Platinum";
 		 chain2.price=150000;
 		 chain2.chainGram=10;
 		 chain2.discount="30%";
@@ -45,13 +45,13 @@ class ChainRunner {
 		 System.out.println("Chain2 price is "+ chain2.price);
 		 System.out.println("Chain2 gram is " + chain2.chainGram);
 		 System.out.println("discount is " +  chain2.discount);
-		 System.out.println("ShopName is " + chain2.ShopName);
+		 System.out.println("ShopName is " + chain2.ShopName);*/
 		 
 		 chain2.perchaseChain();
 		 System.out.println("\n");
 		 
-		 Chain chain3 = new Chain();
-		 chain3.chainType= "UmaGold";
+		 Chain chain3 = new Chain("UmaGold",100,30,"10%","footPath");
+		 /*chain3.chainType= "UmaGold";
 		 chain3.price=100;
 		 chain3.chainGram=30;
 		 chain3.discount="10%";
@@ -61,13 +61,13 @@ class ChainRunner {
 		 System.out.println("Chain3 price is "+ chain3.price);
 		 System.out.println("Chain3 gram is " + chain3.chainGram);
 		 System.out.println("discount is " +  chain3.discount);
-		 System.out.println("ShopName is " + chain3.ShopName);
+		 System.out.println("ShopName is " + chain3.ShopName);*/
 		 
 		 chain3.perchaseChain();
 		 System.out.println("\n");
 		 
-		 Chain chain4 = new Chain();
-		 chain4.chainType= "Dimond";
+		 Chain chain4 = new Chain("Dimond",1306000,45,"20%","Malbar gold and dimond");
+		 /*chain4.chainType= "Dimond";
 		 chain4.price=1306000;
 		 chain4.chainGram=45;
 		 chain4.discount="20%";
@@ -77,7 +77,7 @@ class ChainRunner {
 		 System.out.println("Chain4 price is "+ chain4.price);
 		 System.out.println("Chain4 gram is " + chain4.chainGram);
 		 System.out.println("discount is " +  chain4.discount);
-		 System.out.println("ShopName is " + chain4.ShopName);
+		 System.out.println("ShopName is " + chain4.ShopName);*/
 		 
 		 chain4.perchaseChain();
 		 System.out.println("\n");
