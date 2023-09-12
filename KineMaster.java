@@ -1,0 +1,3 @@
+class KineMaster extends EditingTool{
+	
+}

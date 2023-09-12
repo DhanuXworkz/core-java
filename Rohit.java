@@ -1,0 +1,2 @@
+class Rohit extends Cricket {
+}

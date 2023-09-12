@@ -1,0 +1,3 @@
+class DevendraSir extends Trainer{
+	
+}

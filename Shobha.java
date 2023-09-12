@@ -1,0 +1,3 @@
+class Shobha extends Appartment {
+	
+}

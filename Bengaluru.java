@@ -1,0 +1,3 @@
+class Bengaluru extends City {
+	
+}
