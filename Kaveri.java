@@ -1,0 +1,2 @@
+class Kaveri extends River {
+}
