@@ -1,6 +1,0 @@
-class Rose extends Flower{
-
-
-
-
-}

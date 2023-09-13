@@ -1,6 +1,0 @@
-class Sumsung extends Mobile{
-
-
-
-
-}

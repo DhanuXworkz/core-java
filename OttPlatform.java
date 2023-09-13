@@ -1,10 +1,31 @@
-class OttPlatform{
+class OttPlatForm {
+	String movieNames[]=new String[4];
+	int index;//instance variable
 	
-	public void getMovies(String kannadaMovies, String hindiMovies){
-		
-		System.out.println("getMovies Invoked");
-		System.out.println("Searched Movies "+kannadaMovies+hindiMovies);
-		System.out.println("getMovies Ended");
+	//create/add/save operation
+	
+	public boolean addMoviesName(String movieName){
+		System.out.println("Inside the movieNames()");
+		boolean isAdded=false;//local variable it shoul be initialize at the time of declarartion
+		if(movieName != null){
+			System.out.println("valitation is proper");
+			movieNames[index]=movieName;
+			index++;
+			isAdded=true;
+			
+			
+		}
+		return isAdded;
 		
 	}
+	
+	//read
+	public void getMoviesName(){
+		for(int index=0; index<movieNames.length;index++){
+			System.out.println(movieNames[index]);
+			
+		}
+		
+	}
+	
 }

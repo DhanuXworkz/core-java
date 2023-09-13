@@ -1,5 +1,0 @@
-class earing extends Jewellary{
-
-
-
-}

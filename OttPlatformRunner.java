@@ -1,9 +1,14 @@
-class OttPlatformRunner {
+class OttPlatFormRunner{
 	
-	public static void main (String args[]){
-		Hotstar movie =new Hotstar();
+	public static void main(String args[]){
+		OttPlatForm ott=new OttPlatForm();
+		ott.addMoviesName("Ram");
+		ott.addMoviesName("Ugram");
+		ott.addMoviesName("KGF");
+		ott.addMoviesName("Om");
 		
-		movie.getMovies("jockey","James");
+		
+		ott.getMoviesName();
 		
 	}
 }

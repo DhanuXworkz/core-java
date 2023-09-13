@@ -1,5 +1,0 @@
-class FaceBookk extends SocialMediaa{
-
-
-
-}
