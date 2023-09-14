@@ -6,12 +6,13 @@ class ChatShopRunner {
 		shop.addChatName("Maasala Puri");
 		shop.addChatName("Gobi");
 	    shop.addChatName("Alu Bonda");
-		shop.addChatName("Chilly Bonda");
+		shop.addChatName("Alu Bonda");
 		shop.addChatName("Nippatu");
 		shop.addChatName("Avarekalu Masala ");
 		shop.addChatName("Booti Maasala");
 		shop.addChatName("Bel Puri");
 		shop.addChatName("Masal Mandakki");
+		
 		
 		
 		shop.getChatsName();

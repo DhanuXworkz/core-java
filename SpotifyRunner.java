@@ -12,7 +12,8 @@ class SpotifyRunner {
 		music.addKannadaSongs("Payana");
 		music.addKannadaSongs("Neene Neene");
 		music.addKannadaSongs("E sanje yakagide");
-		music.addKannadaSongs("Kele chevuve");
+		music.addKannadaSongs("Neenire Saniha");
+		
 		
 		music.getKannadaSongs();
 		

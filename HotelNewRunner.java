@@ -10,7 +10,8 @@ class HotelNewRunner {
 	hotel.addFood("Onion Dose");
 	hotel.addFood("Tamoto Bath");
 	hotel.addFood("Poori");
-	hotel.addFood("Buns");
+	hotel.addFood("Poori");
+
 	
 	hotel.getFood();
 }

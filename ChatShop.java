@@ -6,13 +6,25 @@ class ChatShop {
 	public boolean addChatName(String chatsName){
 		
 		boolean isAdded=false;
-		
+		if(index<chatsNames.length){
 		if(chatsName !=null){
-			System.out.println("valitation is proper");
+			boolean exists = checkIfChatsNameExists(chatsName);
+			if(exists == false){
+			System.out.println("valitation is proper..proced to add the songs Names");
 			chatsNames[index]=chatsName;
 			index++;
 			isAdded=true;
+			System.out.println(chatsName+"Chat Name added sucessfully");
 		}
+		else{
+			System.out.println(chatsName+"  is already exists");
+		}
+		}
+		}
+		else {
+			System.out.println("Array size is over cant add the chats further");
+		}
+		System.out.println("End of addChatName");
 		return isAdded;
 		
 	}
@@ -22,5 +34,18 @@ class ChatShop {
 			
 		}
 	}
+	
+	public boolean checkIfChatsNameExists(String chatsName){
+		boolean exists=false;
+		for(int index=0;index<chatsNames.length;index++){
+			if(chatsNames[index]==chatsName){
+				exists =true;
+				
+			}
+		}
+		System.out.println("End of addMovieName Method\n");
+			return exists;
+		}
+	
 	
 }

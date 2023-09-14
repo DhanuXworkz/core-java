@@ -12,7 +12,8 @@ class CricketTeamRunner{
 		player.addPlayer("Kuldeep Jadav");
 		player.addPlayer("Hardik Pandya");
 		player.addPlayer("Ishan Kishan");
-		player.addPlayer("Shardul");
+		player.addPlayer("Bumhah");
+		
 		
 		player.getPlayer();
 		

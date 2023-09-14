@@ -5,7 +5,7 @@ class InteriorRunner {
 		item.addMaterial("Sand");
 		item.addMaterial("cement");
 		item.addMaterial("Tils");
-		item.addMaterial("Glass");
+		item.addMaterial("cement");
 		item.addMaterial("Iron");
 		item.addMaterial("Play and Boards");
 		item.addMaterial("Latches");
@@ -13,6 +13,8 @@ class InteriorRunner {
 		item.addMaterial("Steel");
 		item.addMaterial("Bricks");
 		item.addMaterial("Granites");
+		
+	    
 		
 		item.getMaterial();
 		
